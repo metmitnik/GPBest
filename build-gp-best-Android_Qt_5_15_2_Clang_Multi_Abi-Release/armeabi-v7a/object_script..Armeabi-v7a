@@ -1,0 +1,15 @@
+armeabi-v7a/GBAPI.obj
+armeabi-v7a/UpdateManager.obj
+armeabi-v7a/main.obj
+armeabi-v7a/CatalogScreen_qml.obj
+armeabi-v7a/GamesListDelegate_qml.obj
+armeabi-v7a/GamesListScreen_qml.obj
+armeabi-v7a/MainScreen1_qml.obj
+armeabi-v7a/MainScreen_qml.obj
+armeabi-v7a/RoundButton_qml.obj
+armeabi-v7a/GameScreen_qml.obj
+armeabi-v7a/main_qml.obj
+armeabi-v7a/qmlcache_loader.obj
+armeabi-v7a/qrc_qml_qmlcache.obj
+armeabi-v7a/moc_GBAPI.obj
+armeabi-v7a/moc_UpdateManager.obj

@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>RoundButton.qml</file>
+        <file>MainScreen.qml</file>
+        <file>assets/bg1.jpg</file>
+        <file>assets/bg2.jpg</file>
+        <file>assets/bg3.png</file>
+        <file>assets/bg4.jpg</file>
+        <file>MainScreen1.qml</file>
+        <file>CatalogScreen.qml</file>
+        <file>GamesListScreen.qml</file>
+        <file>assets/icons/Favorite-dark-full.svg</file>
+        <file>assets/icons/Favorite-dark.svg</file>
+        <file>assets/icons/Favorite-white.svg</file>
+        <file>assets/icons/Favorite.svg</file>
+        <file>GamesListDelegate.qml</file>
+        <file>assets/icons/Warning.svg</file>
+        <file>GameScreen.qml</file>
+        <file>assets/comic.ttf</file>
+    </qresource>
+</RCC>
