@@ -33,11 +33,11 @@
         android:extractNativeLibs="true"
         android:hardwareAccelerated="true"
         android:icon="@drawable/icon"
-        android:label="gp-best" >
+        android:label="Tier List Games" >
         <activity
             android:name="org.qtproject.qt5.android.bindings.QtActivity"
             android:configChanges="orientation|uiMode|screenLayout|screenSize|smallestScreenSize|layoutDirection|locale|fontScale|keyboard|keyboardHidden|navigation|mcc|mnc|density"
-            android:label="gp-best"
+            android:label="Tier List Games"
             android:launchMode="singleTop"
             android:screenOrientation="portrait" >
             <intent-filter>

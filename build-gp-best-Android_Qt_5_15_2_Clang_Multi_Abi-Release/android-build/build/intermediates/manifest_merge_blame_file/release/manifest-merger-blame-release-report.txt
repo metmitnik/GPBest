@@ -45,25 +45,25 @@
 31        android:name="org.qtproject.qt5.android.bindings.QtApplication"
 31-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:14:53-116
 32        android:extractNativeLibs="true"
-32-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:14:141-173
+32-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:14:149-181
 33        android:hardwareAccelerated="true"
 33-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:14:18-52
 34        android:icon="@drawable/icon"
-34-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:14:174-203
-35        android:label="gp-best" >
-35-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:14:117-140
+34-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:14:182-211
+35        android:label="Tier List Games" >
+35-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:14:117-148
 36        <activity
 36-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:15:9-73:20
 37            android:name="org.qtproject.qt5.android.bindings.QtActivity"
 37-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:15:189-249
 38            android:configChanges="orientation|uiMode|screenLayout|screenSize|smallestScreenSize|layoutDirection|locale|fontScale|keyboard|keyboardHidden|navigation|mcc|mnc|density"
 38-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:15:19-188
-39            android:label="gp-best"
-39-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:15:250-273
+39            android:label="Tier List Games"
+39-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:15:250-281
 40            android:launchMode="singleTop"
-40-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:15:311-341
+40-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:15:319-349
 41            android:screenOrientation="portrait" >
-41-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:15:274-310
+41-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:15:282-318
 42            <intent-filter>
 42-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:16:13-19:29
 43                <action android:name="android.intent.action.MAIN" />

@@ -6,9 +6,11 @@
                 {
                     "source": "C:\\Qt\\5.15.2\\android\\src\\android\\java\\res\\values\\strings.xml",
                     "from": {
-                        "startLines": "-1,-1,-1,-1",
-                        "startColumns": "-1,-1,-1,-1",
-                        "startOffsets": "-1,-1,-1,-1"
+                        "startLines": "5,4,3,6",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "324,201,88,433",
+                        "endColumns": "107,121,111,97",
+                        "endOffsets": "427,318,195,526"
                     },
                     "to": {
                         "startLines": "30,31,32,33",
@@ -21,12 +23,12 @@
                 {
                     "source": "E:\\GitHub\\GPBest\\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\\android-build\\res\\values\\libs.xml",
                     "from": {
-                        "startLines": "-1,-1,16,-1",
-                        "startColumns": "-1,-1,4,-1",
-                        "startOffsets": "-1,-1,521,-1",
-                        "endLines": "-1,-1,31,-1",
-                        "endColumns": "-1,-1,12,-1",
-                        "endOffsets": "-1,-1,1340,-1"
+                        "startLines": "9,33,16,2",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "301,1348,521,57",
+                        "endLines": "14,35,31,4",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "513,1523,1340,170"
                     },
                     "to": {
                         "startLines": "2,8,11,27",

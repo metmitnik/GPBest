@@ -48,23 +48,23 @@ ADDED from E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Rele
 application
 ADDED from E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:14:5-75:19
 	android:extractNativeLibs
-		ADDED from E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:14:141-173
+		ADDED from E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:14:149-181
 	android:label
-		ADDED from E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:14:117-140
+		ADDED from E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:14:117-148
 	android:hardwareAccelerated
 		ADDED from E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:14:18-52
 	android:icon
-		ADDED from E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:14:174-203
+		ADDED from E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:14:182-211
 	android:name
 		ADDED from E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:14:53-116
 activity#org.qtproject.qt5.android.bindings.QtActivity
 ADDED from E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:15:9-73:20
 	android:screenOrientation
-		ADDED from E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:15:274-310
+		ADDED from E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:15:282-318
 	android:label
-		ADDED from E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:15:250-273
+		ADDED from E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:15:250-281
 	android:launchMode
-		ADDED from E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:15:311-341
+		ADDED from E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:15:319-349
 	android:configChanges
 		ADDED from E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:15:19-188
 	android:name
