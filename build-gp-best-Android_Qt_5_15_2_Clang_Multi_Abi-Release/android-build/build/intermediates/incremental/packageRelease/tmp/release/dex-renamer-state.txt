@@ -1,4 +1,0 @@
-#Tue Nov 23 19:55:06 EET 2021
-base.0=E\:\\GitHub\\GPBest\\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\\android-build\\build\\intermediates\\dex\\release\\out\\classes.dex
-renamed.0=classes.dex
-path.0=classes.dex
