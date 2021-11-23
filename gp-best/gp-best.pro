@@ -14,11 +14,13 @@ SOURCES += \
 
 RESOURCES += qml.qrc
 
+RC_ICONS = assets/gpbest.ico
+
 
 DESTDIR = $$PWD/build
 android: include(E:/GitHub/android_openssl-master/openssl.pri)
 
-
+DEPLOYMENT.display_name = "Tier List Best Games"
 
 
 

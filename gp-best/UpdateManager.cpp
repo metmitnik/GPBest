@@ -2,13 +2,33 @@
 
 UpdateManager::UpdateManager(QObject *parent) : QObject(parent)
 {
+// QFile file(Globals::STORAGE_PATH+"/" + Globals::DEV_TOKEN_FILE_NAME);
+//    if(file.open(QIODevice::WriteOnly | QIODevice::Text)){
+//        file.write(deviceToken.toUtf8());
 
+ //   }
 }
 
 bool UpdateManager::parseUpdate(QString data)
 {
     QJsonDocument doc = QJsonDocument::fromJson(data.toUtf8());
     QJsonObject json = doc.object();
+
+    if(json.contains("ident")){
+
+        ident = json["ident"].toString();
+
+         QFile file(path);
+            if(file.open(QIODevice::WriteOnly)){
+                file.write(ident.toUtf8());
+                file.close();
+
+            }
+
+        getUpdate();
+
+        return true;
+    }
 
     labels = json.value("labels").toObject();
 
@@ -108,6 +128,25 @@ void UpdateManager::init()
     qDebug() << "init update manager";
     manager = new QNetworkAccessManager(this->parent());
 
+    path = QStandardPaths::writableLocation(QStandardPaths::DocumentsLocation)+"/GPBest";
+
+    QDir d(path);
+    if (!d.exists()) {
+        d.mkdir(".");
+    }
+
+    path += "/ident.token";
+
+     QFile file(path);
+     if(file.exists()){
+         if(file.open(QIODevice::ReadOnly)){
+             ident = file.readAll();
+             file.close();
+
+         }
+     }
+
+
 }
 
 void UpdateManager::getUpdate()
@@ -115,7 +154,9 @@ void UpdateManager::getUpdate()
     QLocale systemLocale = QLocale::system();
     //  systemLocale.languageToString(systemLocale.language()).languageToString(systemLocale.language());
     //giveaway/content/getAllByLocalHl?LocalHl=es;
-    QString url = host + "/giveaway/content/getAllByLocalHl?LocalHl="+ systemLocale.uiLanguages()[0].split("-")[0];
+    QString lang = systemLocale.uiLanguages()[0].split("-")[0];
+
+    QString url = host + "/giveaway/content/getAllByLocalHl?LocalHl="+ lang + "&ident="+ident;
 
     qDebug() << "send to "<<url<<systemLocale.uiLanguages()[0].split("-")[0];
     QNetworkRequest req;

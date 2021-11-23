@@ -1,0 +1,94 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.qtproject.example"
+4    android:installLocation="auto"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="23"
+9-->E:\GitHub\GPBest\build-gp-best-Android_Qt_6_2_1_Clang_arm64_v8a-Release\android-build\AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->E:\GitHub\GPBest\build-gp-best-Android_Qt_6_2_1_Clang_arm64_v8a-Release\android-build\AndroidManifest.xml
+11
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->E:\GitHub\GPBest\build-gp-best-Android_Qt_6_2_1_Clang_arm64_v8a-Release\android-build\AndroidManifest.xml:3:5-67
+12-->E:\GitHub\GPBest\build-gp-best-Android_Qt_6_2_1_Clang_arm64_v8a-Release\android-build\AndroidManifest.xml:3:22-64
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->E:\GitHub\GPBest\build-gp-best-Android_Qt_6_2_1_Clang_arm64_v8a-Release\android-build\AndroidManifest.xml:4:5-81
+13-->E:\GitHub\GPBest\build-gp-best-Android_Qt_6_2_1_Clang_arm64_v8a-Release\android-build\AndroidManifest.xml:4:22-78
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->E:\GitHub\GPBest\build-gp-best-Android_Qt_6_2_1_Clang_arm64_v8a-Release\android-build\AndroidManifest.xml:5:5-79
+14-->E:\GitHub\GPBest\build-gp-best-Android_Qt_6_2_1_Clang_arm64_v8a-Release\android-build\AndroidManifest.xml:5:22-76
+15
+16    <supports-screens
+16-->E:\GitHub\GPBest\build-gp-best-Android_Qt_6_2_1_Clang_arm64_v8a-Release\android-build\AndroidManifest.xml:7:5-135
+17        android:anyDensity="true"
+17-->E:\GitHub\GPBest\build-gp-best-Android_Qt_6_2_1_Clang_arm64_v8a-Release\android-build\AndroidManifest.xml:7:23-48
+18        android:largeScreens="true"
+18-->E:\GitHub\GPBest\build-gp-best-Android_Qt_6_2_1_Clang_arm64_v8a-Release\android-build\AndroidManifest.xml:7:49-76
+19        android:normalScreens="true"
+19-->E:\GitHub\GPBest\build-gp-best-Android_Qt_6_2_1_Clang_arm64_v8a-Release\android-build\AndroidManifest.xml:7:77-105
+20        android:smallScreens="true" />
+20-->E:\GitHub\GPBest\build-gp-best-Android_Qt_6_2_1_Clang_arm64_v8a-Release\android-build\AndroidManifest.xml:7:106-133
+21
+22    <application
+22-->E:\GitHub\GPBest\build-gp-best-Android_Qt_6_2_1_Clang_arm64_v8a-Release\android-build\AndroidManifest.xml:8:5-18:19
+23        android:name="org.qtproject.qt.android.bindings.QtApplication"
+23-->E:\GitHub\GPBest\build-gp-best-Android_Qt_6_2_1_Clang_arm64_v8a-Release\android-build\AndroidManifest.xml:8:18-80
+24        android:allowNativeHeapPointerTagging="false"
+24-->E:\GitHub\GPBest\build-gp-best-Android_Qt_6_2_1_Clang_arm64_v8a-Release\android-build\AndroidManifest.xml:8:217-262
+25        android:debuggable="true"
+26        android:extractNativeLibs="true"
+26-->E:\GitHub\GPBest\build-gp-best-Android_Qt_6_2_1_Clang_arm64_v8a-Release\android-build\AndroidManifest.xml:8:81-113
+27        android:hardwareAccelerated="true"
+27-->E:\GitHub\GPBest\build-gp-best-Android_Qt_6_2_1_Clang_arm64_v8a-Release\android-build\AndroidManifest.xml:8:114-148
+28        android:label="gp-best"
+28-->E:\GitHub\GPBest\build-gp-best-Android_Qt_6_2_1_Clang_arm64_v8a-Release\android-build\AndroidManifest.xml:8:149-172
+29        android:requestLegacyExternalStorage="true" >
+29-->E:\GitHub\GPBest\build-gp-best-Android_Qt_6_2_1_Clang_arm64_v8a-Release\android-build\AndroidManifest.xml:8:173-216
+30        <activity
+30-->E:\GitHub\GPBest\build-gp-best-Android_Qt_6_2_1_Clang_arm64_v8a-Release\android-build\AndroidManifest.xml:9:9-17:20
+31            android:name="org.qtproject.qt.android.bindings.QtActivity"
+31-->E:\GitHub\GPBest\build-gp-best-Android_Qt_6_2_1_Clang_arm64_v8a-Release\android-build\AndroidManifest.xml:9:19-78
+32            android:configChanges="orientation|uiMode|screenLayout|screenSize|smallestScreenSize|layoutDirection|locale|fontScale|keyboard|keyboardHidden|navigation|mcc|mnc|density"
+32-->E:\GitHub\GPBest\build-gp-best-Android_Qt_6_2_1_Clang_arm64_v8a-Release\android-build\AndroidManifest.xml:9:79-248
+33            android:label="gp-best"
+33-->E:\GitHub\GPBest\build-gp-best-Android_Qt_6_2_1_Clang_arm64_v8a-Release\android-build\AndroidManifest.xml:9:249-272
+34            android:launchMode="singleTop"
+34-->E:\GitHub\GPBest\build-gp-best-Android_Qt_6_2_1_Clang_arm64_v8a-Release\android-build\AndroidManifest.xml:9:273-303
+35            android:screenOrientation="portrait" >
+35-->E:\GitHub\GPBest\build-gp-best-Android_Qt_6_2_1_Clang_arm64_v8a-Release\android-build\AndroidManifest.xml:9:304-340
+36            <intent-filter>
+36-->E:\GitHub\GPBest\build-gp-best-Android_Qt_6_2_1_Clang_arm64_v8a-Release\android-build\AndroidManifest.xml:10:13-13:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->E:\GitHub\GPBest\build-gp-best-Android_Qt_6_2_1_Clang_arm64_v8a-Release\android-build\AndroidManifest.xml:11:17-68
+37-->E:\GitHub\GPBest\build-gp-best-Android_Qt_6_2_1_Clang_arm64_v8a-Release\android-build\AndroidManifest.xml:11:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->E:\GitHub\GPBest\build-gp-best-Android_Qt_6_2_1_Clang_arm64_v8a-Release\android-build\AndroidManifest.xml:12:17-76
+39-->E:\GitHub\GPBest\build-gp-best-Android_Qt_6_2_1_Clang_arm64_v8a-Release\android-build\AndroidManifest.xml:12:27-74
+40            </intent-filter>
+41
+42            <meta-data
+42-->E:\GitHub\GPBest\build-gp-best-Android_Qt_6_2_1_Clang_arm64_v8a-Release\android-build\AndroidManifest.xml:14:13-85
+43                android:name="android.app.lib_name"
+43-->E:\GitHub\GPBest\build-gp-best-Android_Qt_6_2_1_Clang_arm64_v8a-Release\android-build\AndroidManifest.xml:14:24-59
+44                android:value="gp-best" />
+44-->E:\GitHub\GPBest\build-gp-best-Android_Qt_6_2_1_Clang_arm64_v8a-Release\android-build\AndroidManifest.xml:14:60-83
+45            <meta-data
+45-->E:\GitHub\GPBest\build-gp-best-Android_Qt_6_2_1_Clang_arm64_v8a-Release\android-build\AndroidManifest.xml:15:13-79
+46                android:name="android.app.arguments"
+46-->E:\GitHub\GPBest\build-gp-best-Android_Qt_6_2_1_Clang_arm64_v8a-Release\android-build\AndroidManifest.xml:15:24-60
+47                android:value="" />
+47-->E:\GitHub\GPBest\build-gp-best-Android_Qt_6_2_1_Clang_arm64_v8a-Release\android-build\AndroidManifest.xml:15:61-77
+48            <meta-data
+48-->E:\GitHub\GPBest\build-gp-best-Android_Qt_6_2_1_Clang_arm64_v8a-Release\android-build\AndroidManifest.xml:16:13-98
+49                android:name="android.app.extract_android_style"
+49-->E:\GitHub\GPBest\build-gp-best-Android_Qt_6_2_1_Clang_arm64_v8a-Release\android-build\AndroidManifest.xml:16:24-72
+50                android:value="minimal" />
+50-->E:\GitHub\GPBest\build-gp-best-Android_Qt_6_2_1_Clang_arm64_v8a-Release\android-build\AndroidManifest.xml:16:73-96
+51        </activity>
+52    </application>
+53
+54</manifest>

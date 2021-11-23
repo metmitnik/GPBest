@@ -19,5 +19,6 @@
         <file alias="assets/icons/Warning.svg">../gp-best/assets/icons/Warning.svg</file>
         <file alias="GameScreen.qml">../gp-best/GameScreen.qml</file>
         <file alias="assets/comic.ttf">../gp-best/assets/comic.ttf</file>
+        <file alias="assets/OpenSansEmoji.ttf">../gp-best/assets/OpenSansEmoji.ttf</file>
     </qresource>
 </RCC>

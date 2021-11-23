@@ -9,6 +9,11 @@ ApplicationWindow {
     visible: true
     color:  "#5C455C";
 
+    property ApplicationWindow appWindow : app;
+    property alias appFontName : appFont.name;
+
+      FontLoader { id: appFont; source: "qrc:/assets/OpenSansEmoji.ttf" }
+
     property string local : "local";
     property string title1 : "title1";
     property string title2 : "title2";

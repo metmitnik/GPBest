@@ -23,7 +23,7 @@ Item {
 
         Text {
             id: title1
-            font.family: loclaFont.name;
+            font.family: appWindow.appFontName;
 //            anchors.bottom: title2.top;
 //            anchors.topMargin: parent.height*0.2;
 //            anchors.horizontalCenter: parent.horizontalCenter;
@@ -43,7 +43,7 @@ Item {
 
         Text {
             id: title2
-              font.family: loclaFont.name;
+              font.family: appWindow.appFontName;
             anchors.top: title1.bottom;
 //            anchors.bottomMargin: Math.max(parent.height*.3, 5)
             anchors.horizontalCenter: parent.horizontalCenter;
@@ -73,7 +73,7 @@ Item {
     }
 
     Text {
-          font.family: loclaFont.name;
+          font.family: appWindow.appFontName;
         id: policyLink
         anchors.bottom: aboutLink.top;
         anchors.horizontalCenter: parent.horizontalCenter;
@@ -87,15 +87,16 @@ Item {
 
          MouseArea {
              anchors.fill: parent;
-             onPressed: {Qt.openUrlExternally("https://play.google.com/store/apps/details?id=com.tocaboca.tocalifeworld&hl=en&gl=US") }
+             onPressed: {Qt.openUrlExternally("https://pages.flycricket.io/tier-list-mobile-and/privacy.html") }
          }
 
     }
 
 
     Text {
-          font.family: loclaFont.name;
-        id: aboutLink
+          font.family: appWindow.appFontName;
+        id: aboutLink;
+        anchors.bottomMargin: 25;
         anchors.bottom: parent.bottom;
         anchors.horizontalCenter: parent.horizontalCenter;
     //     Layout.preferredHeight: 40;
@@ -108,7 +109,7 @@ Item {
 
          MouseArea {
              anchors.fill: parent;
-             onPressed: {Qt.openUrlExternally("https://play.google.com/store/apps/details?id=com.tocaboca.tocalifeworld&hl=en&gl=US") }
+             onPressed: {Qt.openUrlExternally("https://pages.flycricket.io/tier-list-mobile-and/privacy.html") }
          }
 
     }

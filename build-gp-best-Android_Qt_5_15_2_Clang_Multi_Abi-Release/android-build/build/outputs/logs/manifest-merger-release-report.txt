@@ -8,21 +8,21 @@ INJECTED from E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-R
 INJECTED from E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:2:1-77:12
 INJECTED from E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:2:1-77:12
 	package
-		ADDED from E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:2:11-42
+		ADDED from E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:2:11-117
 		INJECTED from E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml
 		INJECTED from E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml
 	android:versionName
-		ADDED from E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:2:102-127
+		ADDED from E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:2:177-202
 		INJECTED from E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml
 		INJECTED from E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml
 	xmlns:android
-		ADDED from E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:2:43-101
+		ADDED from E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:2:118-176
 	android:versionCode
-		ADDED from E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:2:128-151
+		ADDED from E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:2:203-226
 		INJECTED from E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml
 		INJECTED from E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml
 	android:installLocation
-		ADDED from E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:2:152-182
+		ADDED from E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:2:227-257
 uses-permission#android.permission.INTERNET
 ADDED from E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:5:5-67
 	android:name
@@ -53,6 +53,8 @@ ADDED from E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Rele
 		ADDED from E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:14:117-140
 	android:hardwareAccelerated
 		ADDED from E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:14:18-52
+	android:icon
+		ADDED from E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:14:174-203
 	android:name
 		ADDED from E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:14:53-116
 activity#org.qtproject.qt5.android.bindings.QtActivity

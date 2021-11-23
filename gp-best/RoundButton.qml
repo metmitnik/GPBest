@@ -6,8 +6,10 @@ Item {
     property alias labelText: label.text;
     property alias buttonColor: rect.color;
 
+    property bool enabled :true;
+
     signal clicked();
-    FontLoader { id: loclaFont; source: "qrc:/assets/comic.ttf" }
+
 
     Rectangle {
 
@@ -42,12 +44,12 @@ Item {
 //        }
         radius: 5;
 
-        border.color: "#daede6"//"#6bbdbb"
+        border.color: "#a0adbb"//"#6bbdbb"
 
         MouseArea {
-            onPressed: {button.opacity = 0.7; timer.start();}
-            onReleased:  {button.opacity = 1; button.clicked(); console.log(rect.color)}
-            onExited: {button.opacity = 1;}
+            onPressed: { if(button.enabled) {button.opacity = 0.7; timer.start();}}
+            onReleased:  { if(button.enabled) {button.opacity = 1; button.clicked(); console.log(rect.color)}}
+            onExited: { if(button.enabled) {button.opacity = 1;}}
            // onDragChanged: {button.opacity = 1;}
 
 
@@ -61,9 +63,25 @@ Item {
 
     TextMetrics {
         id:textMetricks
-        font.family: loclaFont.name;
+        font.family: appWindow.appFontName;
+        font.pixelSize: label.font.pixelSize;
         elide: "ElideRight";
         elideWidth: label.width;
+        font.bold: true;
+//        onTextChanged: {
+//        console.log("mmmm1", text, elidedText, elidedText.indexOf("..."))
+//       ///     label.text = elidedText;
+//            while(elidedText != "" && elidedText != label.text){
+//                 console.log("sss", textMetricks.elidedText, font.pixelSize)
+//                textMetricks.font.pixelSize --;
+//                 textMetricks.text = text;
+//                if(textMetricks.elidedText != ""){
+//                    label.font.pixelSize = textMetricks.font.pixelSize;
+//                    label.text =  textMetricks.elidedText;
+//                }
+//            }
+
+//        }
     }
 
 
@@ -71,20 +89,56 @@ Item {
 
     Text {
         id:label
-        font.family: loclaFont.name;
+        font.family: appWindow.appFontName;
 
         font.bold: true;
         font.pixelSize: parent.height*0.28
         color: "#1c2421";
         textFormat: Text.RichText;
+        lineHeight: 0.8
 
+
+        //text : textMetricks.elidedText;
        //text: "My folders"
 
         horizontalAlignment: Text.AlignHCenter;
         verticalAlignment: Text.AlignVCenter;
 
         anchors.fill: parent;
+        anchors.margins: 2;
+        clip: true;
         wrapMode: Text.WordWrap;
+
+        onTextChanged: {
+           textMetricks.elideWidth = width*1.6;
+            textMetricks.font.pixelSize =  font.pixelSize;
+            textMetricks.font.family = font.family;
+             textMetricks.font.bold = font.bold;
+
+  textMetricks.text = text;
+            if(textMetricks.elidedText != ""){
+                label.text = textMetricks.elidedText;
+            }
+              console.log("sss1",textMetricks.elidedText,textMetricks.elidedText.indexOf("..."), lineCount)
+//              while(textMetricks.elidedText != "" && textMetricks.elidedText.indexOf("...") != -1){
+//                   console.log("sss", textMetricks.elidedText, font.pixelSize)
+//                  textMetricks.font.pixelSize --;
+//                   textMetricks.text = text;
+//                  if(textMetricks.elidedText != ""){
+//                      font.pixelSize = textMetricks.font.pixelSize;
+//                      label.text =  textMetricks.elidedText;
+//                  }
+//              }
+
+
+
+
+//            console.log("sss",text, label.text, textMetricks.elidedText, font.pixelSize)
+
+
+
+
+        }
 
     }
 

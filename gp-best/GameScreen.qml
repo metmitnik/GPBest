@@ -1,5 +1,6 @@
 import QtQuick 2.15
 //import QtQuick.Controls 2.5
+ import QtGraphicalEffects 1.15
 
 Item {
     id:root;
@@ -57,8 +58,21 @@ Item {
         height: 150;
         sourceSize.height: 150
         sourceSize.width: 150
+         visible: false
 
     }
+
+    OpacityMask {
+        anchors.fill: image
+        source: image
+        maskSource: Rectangle {
+            width: image.width
+            height: image.height
+            radius: 5
+            visible: false // this also needs to be invisible or it will cover up the image
+        }
+    }
+
 
     RoundButton {
         id: title;
@@ -67,12 +81,13 @@ Item {
         anchors.top: image.top;
         anchors.leftMargin: 10;
         anchors.rightMargin: 10;
-        height: 75;
+        height: 100;
+        enabled: false;
 
     }
 
     Text {
-          font.family: loclaFont.name;
+          font.family: appWindow.appFontName;
         id: installsLb
         anchors.left: image.right;
         anchors.right: parent.right;
@@ -83,12 +98,12 @@ Item {
         wrapMode: Text.WordWrap;
         font.pixelSize: 18;
         color: "#ffffff";
-        height: 75;
+        height: 50;
     }
 
 
     Text {
-          font.family: loclaFont.name;
+        font.family: appWindow.appFontName;
         id:rate;
         anchors.top: parent.top;
         anchors.left: parent.left;
@@ -109,7 +124,7 @@ Item {
 
     }
     Text {
-          font.family: loclaFont.name;
+        font.family: appWindow.appFontName;
         id:sizeLb;
         anchors.top: rate.top;
         anchors.rightMargin: 10;
@@ -150,7 +165,7 @@ Item {
         id: btnInstall;
         anchors.top: list.bottom;
         anchors.horizontalCenter: parent.horizontalCenter;
-        anchors.topMargin: 10;
+        anchors.topMargin: 30;
         width: parent.width*0.7;
         buttonColor: "#72cdcb";
         height: 60;
@@ -229,7 +244,8 @@ Item {
             id:textD
             width: flick.width-11;
             height: flick.height;
-  font.family: loclaFont.name;
+            font.family: appWindow.appFontName;
+          //  textFormat: TextEdit.RichText;
 
 
 
@@ -238,7 +254,7 @@ Item {
             font.pointSize: 18
             color: "#FFFFFF"
 
-            textFormat: TextEdit.RichText;
+            textFormat: TextEdit.AutoText;
             readOnly: true
             wrapMode: Text.WordWrap
             horizontalAlignment: TextEdit.AlignHCenter

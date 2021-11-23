@@ -1,0 +1,230 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="bestgames.mostPopularGames.topNewGames.gameFinder.trendingGames.funGames.offline.cool.good.funny"
+4    android:installLocation="auto"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="21"
+9-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml
+10        android:targetSdkVersion="28" />
+10-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml
+11    <!--
+12         The following comment will be replaced upon deployment with default permissions based on the dependencies of the application.
+13         Remove the comment if you do not require these default permissions.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:5:5-67
+15-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:5:22-64
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:6:5-81
+16-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:6:22-78
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:7:5-79
+17-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:7:22-76
+18
+19    <!--
+20         The following comment will be replaced upon deployment with default features based on the dependencies of the application.
+21         Remove the comment if you do not require these default features.
+22    -->
+23
+24    <supports-screens
+24-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:13:5-135
+25        android:anyDensity="true"
+25-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:13:80-105
+26        android:largeScreens="true"
+26-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:13:23-50
+27        android:normalScreens="true"
+27-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:13:51-79
+28        android:smallScreens="true" />
+28-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:13:106-133
+29
+30    <application
+30-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:14:5-75:19
+31        android:name="org.qtproject.qt5.android.bindings.QtApplication"
+31-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:14:53-116
+32        android:debuggable="true"
+33        android:extractNativeLibs="true"
+33-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:14:154-186
+34        android:hardwareAccelerated="true"
+34-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:14:18-52
+35        android:icon="@drawable/icon"
+35-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:14:187-216
+36        android:label="Tier List Best Games" >
+36-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:14:117-153
+37        <activity
+37-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:15:9-73:20
+38            android:name="org.qtproject.qt5.android.bindings.QtActivity"
+38-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:15:189-249
+39            android:configChanges="orientation|uiMode|screenLayout|screenSize|smallestScreenSize|layoutDirection|locale|fontScale|keyboard|keyboardHidden|navigation|mcc|mnc|density"
+39-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:15:19-188
+40            android:label="Tier List Best Games"
+40-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:15:250-286
+41            android:launchMode="singleTop"
+41-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:15:324-354
+42            android:screenOrientation="portrait" >
+42-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:15:287-323
+43            <intent-filter>
+43-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:16:13-19:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:17:17-68
+44-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:17:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:18:17-76
+46-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:18:27-74
+47            </intent-filter>
+48            <!-- Application arguments -->
+49            <!-- meta-data android:name="android.app.arguments" android:value="arg1 arg2 arg3"/ -->
+50            <!-- Application arguments -->
+51            <meta-data
+51-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:23:13-85
+52                android:name="android.app.lib_name"
+52-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:23:24-59
+53                android:value="gp-best" />
+53-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:23:60-83
+54            <meta-data
+54-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:24:13-112
+55                android:name="android.app.qt_sources_resource_id"
+55-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:24:24-73
+56                android:resource="@array/qt_sources" />
+56-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:24:74-110
+57            <meta-data
+57-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:25:13-87
+58                android:name="android.app.repository"
+58-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:25:24-61
+59                android:value="default" />
+59-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:25:62-85
+60            <meta-data
+60-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:26:13-106
+61                android:name="android.app.qt_libs_resource_id"
+61-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:26:24-70
+62                android:resource="@array/qt_libs" />
+62-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:26:71-104
+63            <meta-data
+63-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:27:13-116
+64                android:name="android.app.bundled_libs_resource_id"
+64-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:27:24-75
+65                android:resource="@array/bundled_libs" />
+65-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:27:76-114
+66            <!-- Deploy Qt libs as part of package -->
+67            <meta-data
+67-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:29:13-91
+68                android:name="android.app.bundle_local_qt_libs"
+68-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:29:24-71
+69                android:value="1" />
+69-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:29:72-89
+70            <!-- Run with local libs -->
+71            <meta-data
+71-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:31:13-88
+72                android:name="android.app.use_local_qt_libs"
+72-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:31:24-68
+73                android:value="1" />
+73-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:31:69-86
+74            <meta-data
+74-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:32:13-100
+75                android:name="android.app.libs_prefix"
+75-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:32:24-62
+76                android:value="/data/local/tmp/qt/" />
+76-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:32:63-98
+77            <meta-data
+77-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:33:13-122
+78                android:name="android.app.load_local_libs_resource_id"
+78-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:33:24-78
+79                android:resource="@array/load_local_libs" />
+79-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:33:79-120
+80            <meta-data
+80-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:34:13-126
+81                android:name="android.app.load_local_jars"
+81-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:34:24-66
+82                android:value="jar/QtAndroid.jar:jar/QtAndroidBearer.jar" />
+82-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:34:67-124
+83            <meta-data
+83-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:35:13-89
+84                android:name="android.app.static_init_classes"
+84-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:35:24-70
+85                android:value="" />
+85-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:35:71-87
+86            <!-- Used to specify custom system library path to run with local system libs -->
+87            <!-- <meta-data android:name="android.app.system_libs_prefix" android:value="/system/lib/"/> -->
+88            <!-- Messages maps -->
+89            <meta-data
+89-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:39:13-122
+90                android:name="android.app.ministro_not_found_msg"
+90-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:39:71-120
+91                android:value="@string/ministro_not_found_msg" />
+91-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:39:24-70
+92            <meta-data
+92-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:40:13-116
+93                android:name="android.app.ministro_needed_msg"
+93-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:40:68-114
+94                android:value="@string/ministro_needed_msg" />
+94-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:40:24-67
+95            <meta-data
+95-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:41:13-108
+96                android:name="android.app.fatal_error_msg"
+96-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:41:64-106
+97                android:value="@string/fatal_error_msg" />
+97-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:41:24-63
+98            <meta-data
+98-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:42:13-132
+99                android:name="android.app.unsupported_android_version"
+99-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:42:76-130
+100                android:value="@string/unsupported_android_version" />
+100-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:42:24-75
+101            <!-- Messages maps -->
+102            <!-- Splash screen -->
+103            <!--
+104                 Orientation-specific (portrait/landscape) data is checked first. If not available for current orientation,
+105                 then android.app.splash_screen_drawable. For best results, use together with splash_screen_sticky and
+106                 use hideSplashScreen() with a fade-out animation from Qt Android Extras to hide the splash screen when you
+107                 are done populating your window with content.
+108            -->
+109            <!-- meta-data android:name="android.app.splash_screen_drawable_portrait" android:resource="@drawable/logo_portrait" / -->
+110            <!-- meta-data android:name="android.app.splash_screen_drawable_landscape" android:resource="@drawable/logo_landscape" / -->
+111            <!-- meta-data android:name="android.app.splash_screen_drawable" android:resource="@drawable/logo"/ -->
+112            <!-- meta-data android:name="android.app.splash_screen_sticky" android:value="true"/ -->
+113            <!-- Splash screen -->
+114            <!-- Background running -->
+115            <!--
+116                 Warning: changing this value to true may cause unexpected crashes if the
+117                          application still try to draw after
+118                          "applicationStateChanged(Qt::ApplicationSuspended)"
+119                          signal is sent!
+120            -->
+121            <meta-data
+121-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:59:13-93
+122                android:name="android.app.background_running"
+122-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:59:24-69
+123                android:value="false" />
+123-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:59:70-91
+124            <!-- Background running -->
+125            <!-- auto screen scale factor -->
+126            <meta-data
+126-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:62:13-99
+127                android:name="android.app.auto_screen_scale_factor"
+127-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:62:24-75
+128                android:value="false" />
+128-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:62:76-97
+129            <!-- auto screen scale factor -->
+130            <!-- extract android style -->
+131            <!--
+132                 available android:values :
+133                * default - In most cases this will be the same as "full", but it can also be something else if needed, e.g., for compatibility reasons
+134                * full - useful QWidget & Quick Controls 1 apps
+135                * minimal - useful for Quick Controls 2 apps, it is much faster than "full"
+136                * none - useful for apps that don't use any of the above Qt modules
+137            -->
+138            <meta-data
+138-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:71:13-98
+139                android:name="android.app.extract_android_style"
+139-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:71:24-72
+140                android:value="default" />
+140-->E:\GitHub\GPBest\build-gp-best-Android_Qt_5_15_2_Clang_Multi_Abi-Release\android-build\AndroidManifest.xml:71:73-96
+141            <!-- extract android style -->
+142        </activity>
+143        <!-- For adding service(s) please check: https://wiki.qt.io/AndroidServices -->
+144    </application>
+145
+146</manifest>

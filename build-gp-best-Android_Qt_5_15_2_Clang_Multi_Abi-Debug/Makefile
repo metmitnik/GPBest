@@ -149,6 +149,7 @@ armeabi-v7a\qrc_qml.cpp: ..\gp-best\qml.qrc \
 		..\gp-best\GameScreen.qml \
 		..\gp-best\main.qml \
 		..\gp-best\assets\bg4.jpg \
+		..\gp-best\assets\OpenSansEmoji.ttf \
 		..\gp-best\assets\bg2.jpg \
 		..\gp-best\assets\comic.ttf \
 		..\gp-best\assets\bg1.jpg \

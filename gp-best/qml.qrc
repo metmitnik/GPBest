@@ -18,5 +18,6 @@
         <file>assets/icons/Warning.svg</file>
         <file>GameScreen.qml</file>
         <file>assets/comic.ttf</file>
+        <file>assets/OpenSansEmoji.ttf</file>
     </qresource>
 </RCC>

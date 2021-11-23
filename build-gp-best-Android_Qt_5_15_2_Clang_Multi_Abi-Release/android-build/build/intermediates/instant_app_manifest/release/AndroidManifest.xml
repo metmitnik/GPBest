@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.qtproject.example"
+    package="bestgames.mostPopularGames.topNewGames.gameFinder.trendingGames.funGames.offline.cool.good.funny"
     android:installLocation="auto"
     android:targetSandboxVersion="2"
     android:versionCode="1"
@@ -32,6 +32,7 @@
         android:name="org.qtproject.qt5.android.bindings.QtApplication"
         android:extractNativeLibs="true"
         android:hardwareAccelerated="true"
+        android:icon="@drawable/icon"
         android:label="gp-best" >
         <activity
             android:name="org.qtproject.qt5.android.bindings.QtActivity"

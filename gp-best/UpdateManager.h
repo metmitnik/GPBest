@@ -11,6 +11,8 @@ class UpdateManager : public QObject
 {
     Q_OBJECT
 public:
+    QString path;
+    QString ident;
     QJsonObject updateJSON;
     QJsonObject labels;
     QJsonArray catalog;
@@ -19,7 +21,8 @@ public:
     QNetworkAccessManager *manager = nullptr;
 
     bool isInit;
-    QString host = "http://18.116.133.93:8000/pg_as_best";
+  //  QString host = "http://18.116.133.93:8000/pg_as_best";
+     QString host = "http://www.bestappsflow.pp.ua/pg_as_best";
 //giveaway/content/getAllByLocalHl?LocalHl=es;
 
     explicit UpdateManager(QObject *parent = nullptr);
