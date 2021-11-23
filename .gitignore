@@ -30,4 +30,4 @@
 *.exe
 *.out
 *.app
-#build-gp-*/
+build-gp-*/
